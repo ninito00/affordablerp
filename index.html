@@ -1,0 +1,279 @@
+<!doctype HTML>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+        
+        <style>
+            /* html */
+            html {
+                height: 100%;
+                overflow-x: hidden;
+                overflow-y: scroll;
+            }
+            
+            /* body */
+            body {
+                font-family: "Staatliches", sans-serif;
+                background-image: url("Images/rp4cropped.jpg");
+                background-attachment: fixed;
+                background-size: 70%;
+                background-repeat: no-repeat;
+                font-size: 20px;
+                height: 100%;
+                color: 
+            }
+            
+            .full-height {
+                height: 100%;
+            }
+
+            /* headings */
+            h1 {
+                font-size: 70px;
+                font-family: "Staatliches";
+            }
+            
+            h2 {
+                font-family: "Staatliches";
+                font-size: 30px;
+            }
+            
+            h3 {
+                font-family: "Staatliches";
+                font-size: 28px;
+                color: white;
+            }
+            
+            /* bar over header */
+            #overheader {
+                background-color: white;
+                margin: -10px -10px 0px -10px;
+                padding: 10px;
+                text-align: right;
+                height: 2em;
+                
+            }
+    
+            /* header */            
+            header {
+                background-color: black;
+                opacity: 1;
+                padding: 0px 10px 10px 10px;
+                margin: -10px -10px 0px -10px;
+                display: flex;
+                flex-direction: row;
+                align-items: 
+            }
+            
+            #header-img {
+                height: 125px;
+                padding: 25px 20px 0px 0px;
+            }
+            
+            
+            /* header nav bar */
+            #header-nav-bar {
+                align-self: flex-end;
+            }
+            
+            #header-nav-bar > ul {
+                font-size: 22px;
+                list-style: none;
+                display: flex;
+            }
+            
+            #header-nav-bar > ul > li > a {
+                padding: 0px 20px 0px 20px;
+                line-height: 50px;
+                height: 50px;
+                text-decoration: none;
+                display: block;
+                color: white;
+                transition: .3s background-color;
+            }
+            
+            #header-nav-bar a:hover {
+                background-image: linear-gradient(110deg, hsl(0, 0%, 93%), hsl(0, 0%, 100%), hsl(0, 0%, 93%));
+                border-radius: 5px;
+                color: grey;
+            }
+
+            #espanol {
+                background-color: hsl(0, 0%, 95%);
+                color: black !important;
+                box-shadow: black 5px 5px 3px;
+                border-radius: 5px;
+            }
+            
+            /* email entry (not in use) */
+            #email-entry {
+                background-color: white;
+                opacity: 0.8;
+                text-align: center;
+                margin: 50px auto 20px auto;
+                padding: 10px;
+                width: max-content;
+                height: max-content;
+                border: 1px solid #eeeeee;
+                border-radius: 10%;
+            }
+
+            #submit {
+                background-color: hsl(180, 25%, 90%);
+                padding: 5px;
+                margin: 10px 10px 0px 10px;
+                border-radius: 10%;
+                font-family: "Nunito";
+                font-weight: bold;
+                box-shadow: 2px 2px #eeeeee;
+                
+            }
+
+            /* photo text */
+            #phototext {
+                margin-top: 150px;
+                text-align: center;
+                color: white;
+                line-height: 12pt;
+            }
+
+            /* action button */
+            #actionbutton {
+                background-color: black;
+                opacity: 0.9;
+                border-radius: 10px;
+                width: max-content;
+                margin: auto;
+                padding: 5px;
+            }
+            
+            /* text body */
+            #textbody {
+                margin: 30% -10px auto -10px;
+                height: 800px;
+                background-color:
+                width: 110%;
+
+            }
+            
+            /* text boxes */
+            .tboxes {
+                width: 50%;
+                height: 50%;
+                text-align: center;
+                color: red;
+            }
+            
+            #textbox1 {
+                background-color: hsl(0, 100%, 2%);
+                float: left;
+                opacity: 0.9;
+            }
+            
+            #textbox2 {
+                background-color: hsl(0, 100%, 2%);
+                float: right;
+                opacity: 0.7;
+            }
+            
+            #textbox3 {
+                background-color: hsl(0, 100%, 2%);
+                float: left;
+                opacity: 0.7;
+            }
+            
+            #textbox4 {
+                background-color: hsl(0, 100%, 2%);
+                float: right;
+                opacity: 0.9;
+            }
+            
+            .black {
+                background-color: black;
+                width: 110%;
+                height: 500px;
+                margin: auto auto 0px auto;
+            }
+           
+            /* footer */
+            footer {
+                background-color: #dddddd;
+                text-align: center;
+                padding: 5px;
+                margin-top: 100px;
+            }
+            
+            footer > div {
+                display: flex;
+                justify-content: center;
+                list-style-type: none;
+            }
+            
+            footer > div > p {
+                margin: 10px;
+            }
+            
+            footer > span {
+                color: #444444;
+            }
+     
+     
+            /* media queries */
+            @media (min-width: 1300px) {
+            }
+        
+        </style>
+    </head>
+    
+    <body>
+        <div class="full-height">
+        <!-- header -->        
+        <div id="overheader">links to social media?</div>
+        <header id="header">
+            <!-- header nav bar -->
+            <nav id="header-nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="about.html">About</a></li>
+                    <li><a class="nav-link" href="#gift-options">Resources</a></li>  
+                    <li><a class="nav-link" href="#footer">News</a></li>
+                    <li><a class="nav-link" href="#footer">Contact</a></li>
+                    <li><a id="espanol" href="" target="_blank">En Espa&ntilde;ol</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--photo text-->
+        <div id="phototext">
+            <!--<h1>Rogers Park for Affordable Living</h1>-->
+        <!--    <div id="actionbutton"><h2>Do this main action thing</h2></div> -->
+        </div>
+        
+        <!-- text body-->
+
+        
+        <div id="textbody">
+            <div id="textbox1" class="tboxes"><br><br><h3>Pamphlet (print!)</h3></div>
+            <div id="textbox2" class="tboxes"><br><br><h3>Newsfeed w articles?</h3></div>
+            <div id="textbox3" class="tboxes"><h3></h3></div>
+            <div id="textbox4" class="tboxes"></div>
+        </div>
+        
+                    <div id="black"></div>
+        
+        <!-- footer -->
+        <!--
+        <footer id="footer">
+            <div>
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>Contact</p>
+            </div>
+            <span>Copyright Info</span>
+        </footer>
+        -->
+        
+    </body>
+</html>

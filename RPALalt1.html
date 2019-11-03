@@ -1,0 +1,279 @@
+<!doctype HTML>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+        
+        <style>
+            /* body */
+            body {
+                font-family: "Staatliches", sans-serif;
+                background-image: url("rp4.jpg");
+                background-attachment: local;
+                background-size: 100%;
+                font-size: 20px;
+            }
+
+
+            /* headings */
+            h1 {
+                font-size: 40px;
+                font-family: "Staatliches";
+            }
+            
+            h2 {
+                font-family: "Staatliches";
+                font-size: 30px;
+                color: hsl(360, 100%, 45%);
+            }
+            
+            h3 {
+                font-size: 22px;
+            }
+            
+            
+            /* header */            
+            header {
+                background-color: white;
+                opacity: 1;
+                padding: 0px 10px 10px 10px;
+                margin: 0px -10px 0px -10px;
+                display: flex;
+                flex-direction: row;
+                align-items: 
+            }
+            
+            #header-img {
+                height: 125px;
+                padding: 25px 20px 0px 0px;
+            }
+            
+            
+            /* header nav bar */
+            #header-nav-bar {
+                align-self: flex-end;
+            }
+            
+            #header-nav-bar > ul {
+                font-size: 22px;
+                list-style: none;
+                display: flex;
+            }
+            
+            #header-nav-bar > ul > li > a {
+                padding: 0px 20px 0px 20px;
+                line-height: 50px;
+                height: 50px;
+                text-decoration: none;
+                color: black;
+                display: block;
+                transition: .3s background-color;
+            }
+ 
+            #header-nav-bar a:hover {
+                background-color: hsl(181, 10%, 90%);
+                color: black;
+            }
+
+
+            /* nav bar */
+            #nav-bar {
+                margin: -10px -10px 0px -10px;
+                background-color: black;
+            }
+            
+            #nav-bar > ul {
+                margin: 0px 0px 0px ;
+                font-size: 22px;
+                list-style: none;
+                display: flex;
+            }
+            
+            #nav-bar > ul > li > a {
+                padding: 0px 20px 0px 20px;
+                line-height: 50px;
+                height: 50px;
+                text-decoration: none;
+                color: white;
+                display: block;
+                transition: .3s background-color;
+            }
+ 
+            #nav-bar a:hover {
+                background-color: hsl(181, 10%, 90%);
+                color: black;
+            }
+            
+            #espanol {
+                background-color: hsl(184, 20%, 50%);
+                align-self: flex-end;
+            }
+
+
+            /* footer */
+            footer {
+                background-color: #dddddd;
+                text-align: center;
+                padding: 5px;
+                margin-top: 100px;
+            }
+            
+            footer > div {
+                display: flex;
+                justify-content: center;
+                list-style-type: none;
+            }
+            
+            footer > div > p {
+                margin: 10px;
+            }
+            
+            footer > span {
+                color: #444444;
+            }
+    
+    
+            /* email entry (not in use) */
+            #email-entry {
+                background-color: white;
+                opacity: 0.8;
+                text-align: center;
+                margin: 50px auto 20px auto;
+                padding: 10px;
+                width: max-content;
+                height: max-content;
+                border: 1px solid #eeeeee;
+                border-radius: 10%;
+            }
+
+            #submit {
+                background-color: hsl(180, 25%, 90%);
+                padding: 5px;
+                margin: 10px 10px 0px 10px;
+                border-radius: 10%;
+                font-family: "Nunito";
+                font-weight: bold;
+                box-shadow: 2px 2px #eeeeee;
+                
+            }
+
+            /* text body */
+            #textbody {
+                margin: 300px -10px 0px -10px;
+                padding: 10px;
+                background-color: white;
+
+            }
+
+            /*            
+            #textbody1 {
+            }
+
+            #textbody1 > section {
+                padding: 10px;
+                margin: 50px auto 50px auto;
+                border-radius: 20px;
+                color: white;
+            }
+            
+            #missionstatement {
+                text-align: center;
+            }
+            */
+            
+            /* media queries */
+            @media (min-width: 1300px) {
+            }
+            
+
+            
+        </style>
+    </head>
+    
+    <body>
+        <!-- nav bar -->
+        <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#inspiration">About</a></li>
+                    <li><a class="nav-link" href="#gift-options">Resources</a></li>  
+                    <li><a class="nav-link" href="#footer">News</a></li>
+                    <li><a class="nav-link" href="#footer">Contact</a></li>
+                    <li id="espanol"><a href="" target="_blank">En Espa&ntilde;ol Aqui</a></li>
+                </ul>
+        </nav>
+
+        <!-- header -->        
+        <header id="header">
+            <img id="header-img" src="apartment.png">
+            <h1>Rogers Park<br>for Affordable Living</h1>
+
+            <!-- header nav bar -->
+            <nav id="header-nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#inspiration">About</a></li>
+                    <li><a class="nav-link" href="#gift-options">Resources</a></li>  
+                    <li><a class="nav-link" href="#footer">News</a></li>
+                    <li><a class="nav-link" href="#footer">Contact</a></li>
+                    <li id="header-espanol"><a href="" target="_blank">En Espa&ntilde;ol Aqui</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--photo text-->
+        <div id="phototext">
+            <h1>Rogers Park for Affordable Living</h1>
+        </div>
+        
+        <!-- text body -->
+        <div id="textbody">
+            
+        <div id="textbody1">
+            <section id="missionstatement">
+            <h2>Tenant-Centered News and Housing Resources</h2>
+            <h2>Mission Statement</h2>
+            <p>RPAL envisions a Rogers Park where all people can afford to live and contribute to a neighborhood that belongs to them. We recognize that Rogers Park is not unique in its need for community defense of these rights. Here, as elsewhere, this begins with the fight against profit-driven development and displacement of tenants, and with building a network of informed tenants committed to community care and collective power. 
+            </p>
+            </section>
+            
+            <section id="intentions">
+            <h2>List of Intentions</h2>
+
+            <ul>
+                <li>Identify buildings which are under threat of predatory redevelopment</li>
+                <li>Identify property owners/LLCs/landlords whose properties are in violation of tenants rights</li>
+                <li>Create a mailbox where tenants can voice their complaints as a way to connect and/or amplify concerns</li>
+                <li>Distribute information about tenants rights, resources, development projects, and history of RP / anti gentrification work</li>
+                <li>Build relationships with RP community organizations and other tenants organizations in Chicago and elsewhere</li>
+                <li>Connect our work with larger, connected issues like deportation and migrants rights, workers rights, environmental justice, and the project of Settler Colonialism</li>
+            </ul>
+            </section>
+        </div>
+        
+        <div id="textbody2">
+       <section id="email-entry">
+            <h3>Sign up for our newsletter:</h3>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email" placeholder="Enter your email here"><br>
+                <input id="submit" type="submit" value="SUBMIT">
+            </form>
+        </section>
+        </div>
+        
+        </div>
+        
+ 
+        
+
+        <!-- footer -->
+        <footer id="footer">
+            <div>
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>Contact</p>
+            </div>
+            <span>Copyright Info</span>
+        </footer>
+        
+    </body>
+</html>
